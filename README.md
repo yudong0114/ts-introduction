@@ -1,5 +1,5 @@
 # 概要
-* 日本一わかりやすいTypeScript入門
+* とらゼミの「日本一わかりやすいTypeScript入門」を学習
 
 # 進捗
 1. [概要](https://youtu.be/kd8VH10jXwc)
