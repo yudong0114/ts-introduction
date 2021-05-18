@@ -53,7 +53,7 @@
     * `parser`：`TypeScript`を解析するparserを指定
     * `parserOptions`：tsconfig.jsonの設定値を見るように
     * `root`：このファイルがルートというのを明示
-  * `husky` + `ESLint`&`Prettier`でGitコミット
+  * `husky` + `ESLint`&`Prettier`でGitコミット(フックの設定をpackage.jsonに記載)
     * `$ git commit`を行う
     * `husky`実行
     * `pre-commit hook`実行
