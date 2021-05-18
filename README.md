@@ -39,3 +39,42 @@
   * 開発環境でWebpackのビルド
   * 開発用Webサーバーの起動
   * ホットリロード
+
+# 3.ESLintとPrettierでコードの品質を高めよう
+
+## 内容
+  * パッケージのインストール
+  * prettierの設定
+    * `printWidth`：1行にどれだけの文字を入れるか
+    * `singleQuote`：シングルクォート使用時とかのバグチェック
+    * `semi`：文末にセミコロンをつけるかどうか
+  * ESLintの設定
+    * `prettier`：`extends`に最後に記載
+    * `parser`：`TypeScript`を解析するparserを指定
+    * `parserOptions`：tsconfig.jsonの設定値を見るように
+    * `root`：このファイルがルートというのを明示
+  * `husky` + `ESLint`&`Prettier`でGitコミット
+    * `$ git commit`を行う
+    * `husky`実行
+    * `pre-commit hook`実行
+    * `lint-staged`呼び出し
+    * `ESLint`と`Prettier`実行
+    * `Git`にアップ
+
+## メモ
+### ESLint
+  * JSの検証ツール、コーディングスタイルの一貫性を維
+### Prettier
+  * コードフォーマッター、プロジェクトごとにルールを設定し、コードを整形できる
+### eslint-config-prettier
+  * `eslint`と`prettier`を併用する際に設定を反映させる
+### @typescript-eslint/eslint-plugin
+  * ESLintでTypeScriptのチェックを行うプラグイン
+### @typescript-eslint/parser
+  * ESLintでTypeScriptを解析するプラグイン
+### husky
+  * Gitコマンドをフックに別のコマンドを実行させるためのパッケージ
+### lint-staged
+  * コミットしたファイルにlintを実行する
+### パス指定の`**`
+  * 階層もワイルドカードで指定できる
