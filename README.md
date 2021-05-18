@@ -79,3 +79,5 @@
   * コミットしたファイルにlintを実行する
 ### パス指定の`**`
   * 階層もワイルドカードで指定できる
+### VSCodeのESLintで.eslintrc.jsのエラーの対処
+  * [参考サイト](https://wonwon-eater.com/ts-eslint-import-error/)
