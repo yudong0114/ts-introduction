@@ -4,6 +4,7 @@
 # 進捗
 1. [概要](https://youtu.be/kd8VH10jXwc)
 2. [tsconfigとWebpackの設定を理解して環境構築](https://youtu.be/qSHlXcSces8)
+3. [ESLintとPrettierでコードの品質を高めよう](https://youtu.be/R35LJL6a-p0)
 
 # 2.tsconfigとWebpackの設定を理解して環境構築
 
