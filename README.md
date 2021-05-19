@@ -5,6 +5,7 @@
 1. [概要](https://youtu.be/kd8VH10jXwc)
 2. [tsconfigとWebpackの設定を理解して環境構築](https://youtu.be/qSHlXcSces8)
 3. [ESLintとPrettierでコードの品質を高めよう](https://youtu.be/R35LJL6a-p0)
+4. [基本の型定義とアノテーション](https://youtu.be/KQhyHHQrcic)
 
 # 2.tsconfigとWebpackの設定を理解して環境構築
 
@@ -81,3 +82,29 @@
   * 階層もワイルドカードで指定できる
 ### VSCodeのESLintで.eslintrc.jsのエラーの対処
   * [参考サイト](https://wonwon-eater.com/ts-eslint-import-error/)
+
+
+
+# 4.基本の型定義とアノテーション
+
+## 内容
+  * 型推論と明示的な形定義
+    * TypeScriptは型を勝手に決める
+      * `const name = 'string'` -> `string`型！
+    * 明示的に型を書くこともできる
+      * `const name: string = 'string'` -> `string`型！
+  * プリミティブ型
+    * 文字列`string`：`const name: string = 'string'`
+    * 正数/負数`number`：`const age: number = 25`
+    * 真偽直`boolean`：`const isOver20: boolean = true`
+      * 判定式でも使える
+  * 存在しないことを表現する
+    * `null`：初期化されているけど(変数はあるけど)直が入っていない状態
+    * `undefined`：初期化すらされていない
+    * できる限り`undefined`を使う
+  * TypeScriptはanyを回避する
+    * `any`：なんの型でもいい -> なるべく使わない
+    * `unknown`：どんな型になるのか不明
+      * `unknown`は代入した直で型が変化
+
+## メモ
