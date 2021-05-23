@@ -42,4 +42,17 @@ export default function objectSample() {
   // profile.firstname = 'Makoto' -> readonlyのためエラー
 
   console.log('Object object sample 3', profile)
+
+  // インデックスシグネチャ
+  const capitals: {
+    [countryName: string]: string
+  } = {
+    Japan: 'Tokyo',
+    Korea: 'Seoul',
+  }
+
+  capitals.China = 'Beijing'
+  capitals.Canada = 'Ottawa'
+
+  console.log('Object object sample 4', capitals)
 }
