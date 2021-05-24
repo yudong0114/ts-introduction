@@ -45,9 +45,16 @@
 // const sum = sumProductsPrice(100, 200, 300, 400, 500)
 // console.log('Function parameters sample 5:', sum)
 
-// 06. 型エイリアス(type)でオブジェクトの型定義
-import objectSample from './object/object'
-import typeAliasSample from './object/alias'
+// // 06. 型エイリアス(type)でオブジェクトの型定義
+// import objectSample from './object/object'
+// import typeAliasSample from './object/alias'
 
-objectSample()
-typeAliasSample()
+// objectSample()
+// typeAliasSample()
+
+// 07. 積極的に使いたい配列・タプルの型定義
+import arraySample from './array/array'
+import tupleSample from './array/tuple'
+
+arraySample()
+tupleSample()
