@@ -52,9 +52,14 @@
 // objectSample()
 // typeAliasSample()
 
-// 07. 積極的に使いたい配列・タプルの型定義
-import arraySample from './array/array'
-import tupleSample from './array/tuple'
+// // 07. 積極的に使いたい配列・タプルの型定義
+// import arraySample from './array/array'
+// import tupleSample from './array/tuple'
 
-arraySample()
-tupleSample()
+// arraySample()
+// tupleSample()
+
+// 07. 積極的に使いたい配列・タプルの型定義
+import genericsBasicSample from './generics/basic'
+
+genericsBasicSample()
