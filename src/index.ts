@@ -61,5 +61,7 @@
 
 // 07. 積極的に使いたい配列・タプルの型定義
 import genericsBasicSample from './generics/basic'
+import genericsAdvancedSample from './generics/advanced'
 
 genericsBasicSample()
+genericsAdvancedSample()
