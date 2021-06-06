@@ -59,9 +59,17 @@
 // arraySample()
 // tupleSample()
 
-// 07. 積極的に使いたい配列・タプルの型定義
-import genericsBasicSample from './generics/basic'
-import genericsAdvancedSample from './generics/advanced'
+// // 07. 積極的に使いたい配列・タプルの型定義
+// import genericsBasicSample from './generics/basic'
+// import genericsAdvancedSample from './generics/advanced'
 
-genericsBasicSample()
-genericsAdvancedSample()
+// genericsBasicSample()
+// genericsAdvancedSample()
+
+// 10. 非同期処理にも型定義！APIから安全にデータを取得
+// import callbackSample from './aysnchronous/callback'
+// callbackSample()
+// import promiseSample from './aysnchronous/promise'
+// promiseSample()
+// import asyncAwaitSample from './aysnchronous/asyncAwait'
+// asyncAwaitSample()
